@@ -1,6 +1,6 @@
 ---
 title: "Desafío 7 - Diagrama de Causa-Efecto Actividad Recuperacion"
-description: "Bagit: Diagnostico causas en la falla de emision de facturas"
+description: "Bagit: Diagnóstico causas en la falla de emision de facturas"
 pubDate: 2026-06-1
 heroImage: "../../assets/FISHYS.webp"
 ---
@@ -19,28 +19,28 @@ Esto resulta especialmente crítico porque afecta directamente la satisfacción 
 
 * Errores imprevistos en el nuevo sistema informático.
 
-El caso destaca que el sistema fue instalado hace apenas cuatro meses. Como en cualquier adopcion de nuevas tecnologias, van a haber numerosos casos no previstos donde el sistema no soporte la manera de trabajar de la empresa y tenga que ser ajustado, agregando por supuesto los bugs inherentes que todo software presenta.
+El caso destaca que el sistema fue instalado hace apenas cuatro meses. Como en cualquier adopción de nuevas tecnologías, van a haber numerosos casos no previstos donde el sistema no soporte la manera de trabajar de la empresa y tenga que ser ajustado, agregando por supuesto los bugs inherentes que todo software presenta.
 
 
 ### 2. Materiales
 
 * Informacion erronea.
 
-Para la operacion de Bagit es crucial tener la informacion correcta acerca de todo lo referico con el stock, los pedidos del cliente y listas de precios actualizadas, entre otras necesidades informaticas. Si esto no se cumple toda la operacion se viene abajo.
+Para la operación de Bagit es crucial tener la información correcta acerca de todo lo referido con el stock, los pedidos del cliente y listas de precios actualizadas, entre otras necesidades informaticas. Si esto no se cumple toda la operación se viene abajo.
 
 
 ### 3. Mano de Obra
 
-* Falta de capacitacion en el uso del sistema.
+* Falta de capacitación en el uso del sistema.
 
 El caso menciona que se instaló un **nuevo sistema de computación hace cuatro meses** y también que hubo **cambios recientes en los procedimientos**. Si el personal no recibió capacitación suficiente o continúa trabajando con prácticas anteriores, pueden generarse errores en cantidades, precios o productos facturados.
 
 ### 4. Método
 
-* No existe una verificacion entre factura y mercaderia enviada.
+* No existe una verificación entre factura y mercadería enviada.
 * Errores inherentes al trabajo manual.
 
-El escenario explica que el flujo de trabajo incluye multiples instancias en donde la factura puede ser modificada, y además advierte que el empaquetado lo realizan los operarios de forma manual, lo que introduce errores inherentes a esta forma de trabajar, los cuales, al no existir una verificacion entre la factura y lo que se envía, pasan desapercibidos.
+El escenario explica que el flujo de trabajo incluye múltiples instancias en donde la factura puede ser modificada, y además advierte que el empaquetado lo realizan los operarios de forma manual, lo que introduce errores inherentes a esta forma de trabajar, los cuales, al no existir una verificación entre la factura y lo que se envía, pasan desapercibidos.
 
 ### 5. Medición
 
@@ -52,7 +52,7 @@ El caso indica que *"no había antes una inquietud acerca de la cantidad de quej
 
 ### 6. Medio Ambiente
 
-* Adopcion del sistema todavia en curso.
+* Adopción del sistema todavia en curso.
 * Falta de coordinacion entre areas.
 * Cambios recientes en el proceso operativo.
 
@@ -62,7 +62,7 @@ La empresa estaba realizando esfuerzos para mejorar la calidad y el servicio al 
 
 El razonamiento para reconocer que la raíz a atacar es la de **Máquina** es el siguiente: los errores identificados dentro del escenario están directamente relacionados con la información procesada por el sistema, por lo tanto cualquier error en el manejo del mismo impacta directamente sobre todo el proceso operativo, sumado a que el sistema todavía está en un proceso de adopción dentro de la empresa (proceso del cual no sabemos cómo se realizó su inserción) por lo que podemos asumir que los operarios no están del todo familiarizados con su uso.
 
-Además de esto, una inversion para mejorar el sistema puede tratar directamente a los otros problemas reconocidos en **Medición** y **Métodos**, primero implementando trazabilidad en todas las operaciones realizadas por el sistema, generando así información medible, y sirviendo como marco de soporte para las operaciones de la empresa, marcando un camino claro y reduciendo las desviaciones que causan errores.
+Además de esto, una inversión para mejorar el sistema puede tratar directamente a los otros problemas reconocidos en **Medición** y **Métodos**, primero implementando trazabilidad en todas las operaciones realizadas por el sistema, generando así información medible, y sirviendo como marco de soporte para las operaciones de la empresa, marcando un camino claro y reduciendo las desviaciones que causan errores.
 
 ## Plan de acción
 
