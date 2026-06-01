@@ -1,7 +1,7 @@
 ---
 title: "Desafío 7 - Diagrama de Causa-Efecto"
 description: "BurgerClick: identificando las causas raíz del delivery frío con el Diagrama de Ishikawa"
-pubDate: 2026-05-22
+pubDate: 2026-05-26
 heroImage: "../../assets/desafio7.png"
 ---
 
