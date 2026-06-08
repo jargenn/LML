@@ -1,18 +1,39 @@
 ---
 import Layout from "./Layout.astro"; // Importas el layout padre
-import FormattedDate from "../components/FormattedDate.astro";
+import { getYouTubeEmbedUrl } from "../utils/youtube";
 
-const { nombre, description, pubDate, updatedDate, heroVideo } = Astro.props;
+interface Props {
+  nombre: string;
+  descripcion: string;
+  heroVideo?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { nombre, descripcion, heroVideo, headings = [] } = Astro.props;
+
+const embedUrl = getYouTubeEmbedUrl(heroVideo);
+
+const tocHeadings = headings.filter(
+  (h) =>
+    h.depth >= 2 &&
+    h.depth <= 3 &&
+    h.text.toLowerCase() !== "tabla de contenidos",
+);
 ---
 
-<Layout title={nombre} description={description}>
+<Layout title={nombre} description={nombre}>
   <main>
     <article>
+      <div class="title">
+        <h1>{nombre} - RPA</h1>
+        <p class="descripcion_perfil">{descripcion}</p>
+        <hr />
+      </div>
       <div class="hero-image">
         <div class="video-container">
           <iframe
             id={`video-${nombre.replace(/\s+/g, "")}`}
-            src={heroVideo}
+            src={embedUrl}
             title={`Video de ${nombre}`}
             frameborder="0"
             loading="lazy"
@@ -21,82 +42,274 @@ const { nombre, description, pubDate, updatedDate, heroVideo } = Astro.props;
             allowfullscreen></iframe>
         </div>
       </div>
-      <div class="prose">
-        <div class="title">
-          <div class="date">
-            <FormattedDate date={pubDate} />
-            {
-              updatedDate && (
-                <div class="last-updated-on">
-                  Last updated on <FormattedDate date={updatedDate} />
-                </div>
-              )
-            }
-          </div>
-          <h1>{nombre}</h1>
 
-          <hr />
+      <div class="content-layout">
+        {
+          tocHeadings.length > 0 && (
+            <aside class="toc-sidebar">
+              <nav>
+                <ul>
+                  {tocHeadings.map((h) => (
+                    <li class:list={[{ "toc-h3": h.depth === 3 }]}>
+                      <a
+                        href={`#${h.slug}`}
+                        class="toc-link"
+                        data-heading={h.slug}>
+                        {h.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </aside>
+          )
+        }
+        <div class="prose">
+          <slot />
         </div>
-        <slot />
       </div>
     </article>
   </main>
+
+  <script>
+    document.addEventListener("astro:page-load", () => {
+      const tocLinks =
+        document.querySelectorAll<HTMLAnchorElement>(".toc-link");
+      if (!tocLinks.length) return;
+
+      const headingEls = document.querySelectorAll<HTMLElement>("h2, h3");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              tocLinks.forEach((l) => l.classList.remove("active"));
+              const active = document.querySelector(
+                `.toc-link[data-heading="${entry.target.id}"]`,
+              );
+              if (active) active.classList.add("active");
+            }
+          }
+        },
+        { rootMargin: "-15% 0% -75% 0%", threshold: 0 },
+      );
+
+      headingEls.forEach((h) => observer.observe(h));
+    });
+  </script>
+
+  <style>
+    .video-container {
+      aspect-ratio: 16 / 9;
+      border-radius: 1rem;
+      overflow: hidden;
+      background: #000;
+
+      margin-top: 4rem;
+
+      --max-width: 1020px;
+      --padding: 1rem;
+
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+      margin-inline: auto;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .descripcion_perfil {
+      --max-width: 808px;
+      --padding: 1rem;
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+      margin-inline: auto;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    main {
+      margin-top: 88px;
+      padding-top: 5rem;
+    }
+
+    .back-container {
+      width: 100%;
+    }
+    .back-btn-container {
+      --max-width: 1400px;
+      --padding: 1rem;
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+      margin: 0 auto;
+    }
+
+    .back-btn {
+      display: flex;
+      width: fit-content;
+      margin-bottom: 2rem;
+      align-items: center;
+      gap: 0.4rem;
+      padding-block: 0.5rem;
+      color: rgb(var(--gray-dark)) !important;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+
+    .back-btn:hover {
+      color: rgb(var(--black)) !important;
+      text-decoration: underline;
+    }
+
+    .hero-image {
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+
+    .hero-image img {
+      display: block;
+      margin: 0 auto;
+      --max-width: 1400px;
+      --padding: 1rem;
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+      max-height: 700px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: var(--box-shadow);
+    }
+
+    /* Layout con sidebar */
+    .content-layout {
+      --max-width: 1100px;
+      --padding: 1rem;
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 2rem;
+      align-items: start;
+      padding-bottom: 6rem;
+    }
+
+    /* Sin sidebar (trabajointegrador u otros) */
+    .content-layout:has(.prose:only-child) {
+      grid-template-columns: 1fr;
+      max-width: 808px;
+    }
+
+    /* Sidebar sticky */
+    .toc-sidebar {
+      position: sticky;
+      top: 7rem;
+    }
+
+    .toc-sidebar nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-left: 2px solid rgb(var(--gray-light));
+    }
+
+    .toc-sidebar nav ul li {
+      padding: 0;
+    }
+
+    .toc-h3 .toc-link {
+      padding-left: 1.5rem;
+      font-size: 0.85rem;
+    }
+
+    .toc-link {
+      display: block;
+      padding: 0.35rem 0 0.35rem 1rem;
+      font-size: 0.9rem;
+      color: rgb(var(--gray)) !important;
+      text-decoration: none !important;
+      border-left: 2px solid transparent;
+      margin-left: -2px;
+      line-height: 1.4;
+      transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .toc-link:hover {
+      color: rgb(var(--gray-dark)) !important;
+    }
+
+    .toc-link.active {
+      color: rgb(var(--black)) !important;
+      border-left-color: rgb(var(--black));
+      font-weight: 600;
+    }
+
+    /* Prose dentro del layout con sidebar no necesita centrarse */
+    .content-layout .prose {
+      min-width: 0;
+      padding: 0;
+      color: rgb(var(--gray-dark));
+    }
+
+    /* Prose standalone (título, hero) */
+    .prose {
+      max-width: calc(100% - 2em);
+      margin: auto;
+      padding: 0 1em 1em 1em;
+      color: rgb(var(--gray-dark));
+    }
+
+    .title {
+      text-align: center;
+      line-height: 1;
+      margin: 0 auto;
+      --max-width: 1100px;
+      --padding: 1rem;
+      width: min(var(--max-width), 100% - (var(--padding) * 2));
+    }
+
+    .title h1 {
+      margin: 0 0 0.5em 0;
+    }
+
+    .date {
+      margin-bottom: 0.5em;
+      color: rgb(var(--gray));
+    }
+
+    .last-updated-on {
+      font-style: italic;
+    }
+
+    .autores img {
+      transition: all 0.2s ease;
+    }
+
+    .autores img:hover {
+      transform: scale(1.1);
+      z-index: 2;
+    }
+
+    .autores:hover img {
+      transform: scale(0.9);
+      opacity: 0.7;
+      transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+    }
+
+    .autores:hover img:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+
+    /* Ocultar TOC en pantallas chicas */
+    @media (max-width: 1000px) {
+      .toc-sidebar {
+        display: none;
+      }
+
+      .content-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </Layout>
-
-<style>
-  main {
-    margin-top: 88px;
-    padding-top: 4rem;
-  }
-  .hero-image {
-    width: 100%;
-  }
-  .hero-image img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 12px;
-    box-shadow: var(--box-shadow);
-  }
-  .prose {
-    max-width: calc(100% - 2em);
-    margin: auto;
-    padding: 1em;
-    color: rgb(var(--gray-dark));
-  }
-  .title {
-    margin-bottom: 1em;
-    padding: 1em 0;
-    text-align: center;
-    line-height: 1;
-  }
-  .title h1 {
-    margin: 0 0 0.5em 0;
-  }
-  .date {
-    margin-bottom: 0.5em;
-    color: rgb(var(--gray));
-  }
-  .last-updated-on {
-    font-style: italic;
-  }
-  .autores img {
-    transition: all 0.2s ease;
-  }
-  .autores img:hover {
-    transform: scale(1.1);
-    z-index: 2;
-  }
-
-  .autores:hover img {
-    transform: scale(0.9);
-    opacity: 0.7;
-    transition:
-      transform 0.3s ease,
-      opacity 0.3s ease;
-  }
-
-  .autores:hover img:hover {
-    transform: scale(1.1);
-    opacity: 1;
-  }
-</style>

@@ -14,6 +14,19 @@ const desafios = defineCollection({
     }),
 });
 
+const blogPersonal = defineCollection({
+  loader: glob({
+    base: "./src/content/blogsPersonales",
+    pattern: "**/*.{md,mdx}",
+  }),
+  schema: () =>
+    z.object({
+      nombre: z.string(),
+      descripcion: z.string(),
+      heroVideo: z.string(),
+    }),
+});
+
 const tpi = defineCollection({
   loader: glob({ base: "./src/content/tpi", pattern: "**/*.{md,mdx}" }),
   schema: ({ image }) =>
@@ -40,4 +53,4 @@ const tpi = defineCollection({
 //     }),
 // });
 
-export const collections = { desafios, tpi };
+export const collections = { desafios, tpi, blogPersonal };
