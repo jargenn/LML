@@ -235,3 +235,9 @@ El proceso de formular estas preguntas fue en sí mismo un aprendizaje. Mi prime
 Los hábitos del pensador sistémico que más identifiqué en mi propio recorrido son el de ver "The Big picture", concepto que ya habia visto en la materia Ingenieria y Calidad de Software, cuando desarrollamos "Mapa de hsitorias de usuarios", pero que ahora lo recorde. También identifique el reconocimiento de las relaciones circulares de causa y efecto. Durante los desafíos del TPI y las actividades de la cátedra, aprendí que los problemas complejos raramente tienen una sola causa y que las soluciones apresuradas suelen desplazar el problema en lugar de resolverlo. También aprendí a considerar las consecuencias a largo plazo, un sistema que funciona bien hoy pero que no es mantenible o escalable no es realmente una buena solución.
 
 Como pendiente, reconozco que me queda profundizar en lo humano de la gestión: liderazgo, motivación, gestión del talento. Son las áreas donde siento que todavía tengo más intuición que herramientas, y que son críticas para quien aspira a roles de dirección. También quiero explorar más en profundidad el vínculo entre innovación y modelos de negocio, especialmente en el contexto de las startups tecnológicas en Argentina.
+
+---
+
+### Inforgrafía
+
+![Infografía RPA Tobias Stegmayer](../../assets/infografiaTobias.svg)
