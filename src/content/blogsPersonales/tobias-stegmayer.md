@@ -241,3 +241,7 @@ Como pendiente, reconozco que me queda profundizar en lo humano de la gestión: 
 ### Inforgrafía
 
 ![Infografía RPA Tobias Stegmayer](../../assets/infografiaTobias.svg)
+
+### Mapa conceptual de la materia
+
+![Mapa conceptual de la materia](../../assets/MCtobi.drawio.png)
