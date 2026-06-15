@@ -1,5 +1,5 @@
 ---
-title: "Desafío 8 - Analisis Devlights"
+title: "Desafío 8 - Análisis Devlights"
 description: "Actividad en base a la visita de Nicolas Dogi"
 pubDate: 2026-07-15
 heroImage: "../../assets/devlights.png"
@@ -17,7 +17,7 @@ En base a la participación en la charla, su investigación previa y posterior a
 6. Elaborar una síntesis respecto a la empresa considerando los aspectos considerados en las actividades previas. La síntesis debe tener 500 palabras como mínimo y 3000 como máximo.
 
 
-## 1. Devlights como sistema sociotecnico
+## 1. Devlights como sistema sociotécnico
 
 La empresa está orientada a brindar soluciones tecnológicas que permitan potenciar el desempeño y los objetivos de sus clientes. Su propuesta de valor se basa principalmente en la prestación de servicios vinculados al desarrollo de software, ampliación de equipos de trabajo, aseguramiento de calidad, diseño de experiencia de usuario, desarrollo móvil e implementación de soluciones de inteligencia artificial e ingeniería de datos. Esto permite interpretar que la organización desarrolla sus actividades dentro de un entorno caracterizado por una alta exigencia técnica y una fuerte necesidad de adaptación al cambio.
 
