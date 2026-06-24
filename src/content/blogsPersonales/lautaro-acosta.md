@@ -10,46 +10,36 @@ heroVideo: "https://youtu.be/u7xxYFPv--Y?si=T68ExIpbso5S8zeI"
 
 ## Parte A -- Preguntas por Unidad
 
-### Unidad 1 -- Las Organizaciones y su Administración
+A continuación, se presentan dos preguntas por unidad diseñadas bajo los criterios de reflexión profesional, visión sistémica y apertura conceptual, seguidas de sus respectivas respuestas fundamentadas en las fuentes.
 
-**Pregunta 1: ¿Cuáles son las funciones básicas de la gestión gerencial y qué habilidades identificó Robert Katz como esenciales para cumplirlas?**
+### Unidad 1: Las Organizaciones y su Administración
+1.  ¿De qué manera la transición de ver a la empresa como una jerarquía rígida a verla como un **sistema abierto** redefine la responsabilidad ética de un ingeniero al implementar sistemas de información que alteran el flujo de datos organizacional?
+2.  Analizando los roles de Mintzberg, ¿cómo puede el ingeniero-gerente evitar que su función como "centro nervioso" de información se transforme en un **cuello de botella** que incremente la entropía del sistema en lugar de reducir la incertidumbre?
 
-**Pregunta 2: Según Henry Mintzberg, ¿en qué categorías se agrupan los diez roles que desempeñan los administradores?**
+### Unidad 2: Estrategia Empresaria
+3.  Si el Cuadro de Mando Integral se define como un **sistema causal**, ¿qué riesgos sistémicos asume una organización tecnológica que decide priorizar métricas financieras inmediatas sobre los indicadores de la perspectiva de aprendizaje y crecimiento?
+4.  ¿Cómo debe el **pensamiento estratégico** condicionar la selección de arquitecturas tecnológicas en una empresa, considerando que la tecnología debe actuar como infraestructura y no como un fin en sí misma dentro de un entorno VUCA?
 
-### Unidad 2 -- Estrategia Empresaria
+### Unidad 3: La Conducta Humana en la Organización
+5.  Ante el avance de la automatización y la IA, ¿cómo se debe reconfigurar la dimensión del **"saber ser"** en el talento 4.0 para que el trabajador del conocimiento sea un orquestador creativo y no un simple ejecutor de procesos automatizados?
+6.  ¿Bajo qué argumentos podemos sostener que la **cultura organizacional** es el "sistema operativo" real de la empresa, y de qué forma una "incompatibilidad" entre esta cultura y una nueva tecnología puede llevar al fracaso de un proyecto técnicamente perfecto?
 
-**Pregunta 1: ¿Qué es el Cuadro de Mando Integral (CMI) y cuáles son sus cuatro perspectivas principales?**
+### Unidad 4: Modelos de Negocios
+7.  ¿Cómo una **propuesta de valor** mal definida desde el inicio del Modelo Canvas puede forzar una arquitectura de sistemas ineficiente o costosa, comprometiendo la viabilidad financiera del proyecto a largo plazo?
+8.  En el contexto de las **startups**, ¿de qué manera el uso de plataformas tecnológicas y modelos de monetización flexibles altera la gestión de los "recursos clave" en comparación con los modelos de negocio tradicionales?
 
-**Pregunta 2: ¿Cuál es la función de un KPI y qué características debe tener según el modelo SMART?**
+### Unidad 5: Gestión del Cambio
+9.  Analizando el modelo de Lewin, ¿qué impacto tiene un proceso de **"descongelamiento"** brusco (como el visto en Almacenes del Norte) sobre el capital intelectual de la empresa, especialmente cuando el conocimiento empírico de los veteranos es ignorado?
+10. ¿En qué punto la **reingeniería de procesos** deja de ser una herramienta de optimización para convertirse en un riesgo para la homeostasis organizacional si no se contempla la resistencia al cambio como un bucle de retroalimentación natural?
 
-### Unidad 3 -- La Conducta Humana en la Organización
 
-**Pregunta 1: ¿Qué importancia tiene la cultura organizacional en los procesos de adopción tecnológica y transformación digital?**
-
-**Pregunta 2: ¿Cuáles son las tres dimensiones del concepto de competencia que definen la capacidad de una persona en el trabajo?**
-
-### Unidad 4 -- Modelos de Negocios
-
-**Pregunta 1: ¿Qué es el Modelo Canvas y para qué le sirve a una empresa?**
-
-**Pregunta 2: ¿Cómo se relacionan la propuesta de valor y el modelo de negocio?**
-
-### Unidad 5 -- Dinámica del Cambio
-
-**Pregunta 1: ¿En qué consisten las tres etapas del modelo de cambio organizacional propuesto por Kurt Lewin?**
-**Pregunta 2: ¿Cuáles son las principales causas humanas y emocionales que generan resistencia al cambio?**
-
-### Unidad 6 -- Innovación
-
-**Pregunta 1: ¿Qué es un intrapreneur y qué condiciones necesita para prosperar en una organización?**
-
-**Pregunta 2: ¿Cuál es el impacto de las tecnologías emergentes como la IA, el IoT y el Big Data en la estrategia empresarial?**
+### Unidad 6: Innovación
+11. ¿Cómo puede el perfil del **intrapreneur** actuar como un catalizador de "neguentropía" en organizaciones tradicionales, y qué barreras estructurales suelen asfixiar este pensamiento lateral en las áreas de sistemas?
+12. Ante la adopción de **tecnologías emergentes** (IA, IoT), ¿cómo debe equilibrar un líder tecnológico la búsqueda de competitividad con la evaluación ética de las consecuencias no intencionadas de estos sistemas en el ecosistema social?
 
 ### Unidad 7 -- Responsabilidad Social, Sustentabilidad y Sostenibilidad Empresaria
-
-**Pregunta 1: ¿Qué relación existe entre la ética empresarial y la tarea de los gerentes?**
-
-**Pregunta 2: ¿En qué consiste la Responsabilidad Social Empresaria (RSE) y cuáles son sus ventajas?**
+13. ¿De qué manera el concepto de **Green IT** permite que el área de sistemas deje de ser vista exclusivamente como un centro de consumo energético para transformarse en un pilar de la rentabilidad y la reputación estratégica de la empresa?
+14. ¿Es posible que la **Responsabilidad Social Empresaria** sea una ventaja competitiva genuina en el sector IT, o corre el riesgo de ser solo una máscara de "Greenwashing" si no se integra en el núcleo del modelo de negocio y los valores de los líderes?
 
 ### Hábitos del Pensador Sistémico
 #### Identifica la naturaleza circular de relaciones complejas de causa y efecto:
@@ -73,63 +63,42 @@ Al programar el micrositio del equipo, la tarea dejó de ser puramente técnica 
 ### Respuestas a las preguntas
 #### Unidad 1
 
-**Respuesta 1:** La gestión gerencial utiliza el **proceso administrativo** como guía, el cual se compone de cuatro funciones principales: **planificación** (definir metas), **organización** (ordenar recursos), **dirección** (guiar al personal) y **control** (evaluar resultados). Para ejecutar estas funciones con éxito, Robert Katz sostiene que todo gerente debe desarrollar tres habilidades fundamentales:
-*   **Habilidad Técnica:** Conocimiento especializado y destreza en el uso de herramientas y procedimientos específicos de un campo.
-*   **Habilidad Humana:** Capacidad para trabajar con personas, comprenderlas, motivarlas y liderar equipos.
-*   **Habilidad Conceptual:** Capacidad para ver la organización como un todo, comprender cómo sus partes se interrelacionan y cómo la empresa se vincula con su entorno.
+1.  La transición al enfoque de **sistema abierto** implica que el ingeniero ya no diseña soluciones aisladas, sino que reconoce que la organización intercambia insumos y energía con su entorno. La responsabilidad ética se redefine porque cada sistema de información afecta los roles de las personas y las interacciones entre áreas; una implementación que ignora estas conexiones puede generar caos en lugar de orden. El ingeniero debe actuar con integridad, entendiendo que el flujo de datos que crea es la base de la toma de decisiones y, por ende, de la estabilidad de todo el sistema social que es la empresa.
 
-**Respuesta 2:** Mintzberg sostiene que el trabajo de un gerente no es puramente lineal, sino que implica el desempeño de diez roles agrupados en tres categorías:
-1.  **Interpersonales:** Surgen de la autoridad formal y se centran en las relaciones humanas. Incluyen los roles de **representación** (figura de autoridad), **liderazgo** y **enlace** (vinculación externa).
-2.  **Informativos:** Se refieren a la recepción y transmisión de información. El gerente actúa como el "centro nervioso" en los roles de **monitoreo** (supervisión), **difusión** y **portavoz** (vocero).
-3.  **Decisorios:** Implican el uso de información para elegir entre alternativas. Incluyen los roles de **emprendedor**, **manejador de disturbios** (solucionador de conflictos), **asignador de recursos** y **negociador**.
+2.  Para evitar ser un cuello de botella, el ingeniero-gerente debe utilizar su rol de "centro nervioso" para **diseminar la información** de forma transversal y no centralizarla. Bajo una mirada sistémica, el administrador debe ser un puente y no una barrera; esto se logra empoderando a los equipos y fomentando la transparencia, de modo que la información fluya como un recurso que reduzca la incertidumbre colectiva, permitiendo que la organización se adapte más rápido a los cambios del mercado.
 
 #### Unidad 2
 
-**Respuesta 1:** El **Cuadro de Mando Integral (Balanced Scorecard)** es una herramienta de gestión estratégica que traduce la visión y la estrategia de una organización en un conjunto de indicadores de desempeño (KPI) relacionados causalmente. Equilibra los indicadores financieros con los no financieros a través de cuatro perspectivas:
-*   **Perspectiva Financiera:** Analiza los ingresos y la salud financiera desde el punto de vista de los accionistas.
-*   **Perspectiva del Cliente:** Mide cómo ven los usuarios a la empresa y qué valor se les entrega.
-*   **Perspectiva de Procesos Internos:** Identifica los procesos críticos en los que la empresa debe ser excelente para satisfacer a clientes y accionistas.
-*   **Perspectiva de Aprendizaje y Crecimiento:** Analiza la infraestructura necesaria (personas, sistemas y clima organizacional) para crear valor a largo plazo.
+3.  Priorizar lo financiero sobre el aprendizaje genera un **desequilibrio sistémico**. En un sistema causal como el CMI, el aprendizaje y crecimiento (capacitación, cultura) son los motores que impulsan la mejora de procesos; si estos fallan, la calidad del software cae, los clientes se insatisface y, finalmente, la rentabilidad financiera se desploma a largo plazo. Ignorar la base de la pirámide causal compromete la supervivencia organizacional ante cualquier cambio del entorno.
 
-**Respuesta 2:** Un **KPI (Indicador Clave de Desempeño)** es una métrica utilizada para evaluar si una organización o proyecto está logrando sus objetivos estratégicos. Para que sea efectivo, debe alinearse con el modelo **SMART**, cumpliendo con las siguientes características: debe ser **Específico** (definido claramente), **Medible** (cuantificable), **Alcanzable** (realista), **Relevante** (alineado al objetivo) y **Temporal** (medido en un periodo determinado).
+4.  El **pensamiento estratégico** dicta que la tecnología debe ser la "infraestructura" que soporte el "diseño del sistema" (la estrategia). En un entorno VUCA, elegir una tecnología solo por tendencia es un error; la arquitectura debe ser flexible y modular para permitir ajustes de rumbo. La estrategia debe preceder a la herramienta técnica para asegurar que la inversión genere ventajas competitivas sostenibles y no solo una modernización superficial.
 
 #### Unidad 3
 
-**Respuesta 1:** La cultura organizacional puede actuar como un **freno o un acelerador** ante nuevas tecnologías. El éxito de un cambio no depende solo de los recursos técnicos, sino principalmente de las personas, el liderazgo y la capacidad de adaptación. En el contexto del "talento 4.0", los trabajadores del conocimiento juegan un rol clave, ya que deben estar dispuestos a abandonar certezas previas y aprender nuevas habilidades para que la transformación digital no fracase por ignorar la dimensión humana.
+5.  El **talento 4.0** debe fortalecer sus habilidades humanas y conceptuales (el "saber ser" y el "saber"), ya que las habilidades técnicas de ejecución son las más propensas a ser automatizadas. El trabajador del conocimiento debe aportar creatividad, juicio ético y visión sistémica; su valor reside en su capacidad para diseñar y supervisar sistemas complejos (como un orquestador de agentes de IA), dejando las tareas repetitivas a las máquinas para enfocarse en la toma de decisiones críticas.
 
-**Respuesta 2:** El concepto de competencia se define como la combinación integral de tres elementos fundamentales:
-1.  **Conocimiento** (el "saber").
-2.  **Habilidades y destreza** (el "saber hacer").
-3.  **Actitudes y Valores** (el "saber ser").
-Para un gerente, la competencia implica transformar este conocimiento en acción efectiva para alcanzar los resultados esperados por la organización.
+6.  La **cultura organizacional** es el conjunto de valores y normas que determinan "cómo se hacen las cosas"; si esta cultura es rígida o teme al cambio, rechazará la tecnología como un cuerpo extraño. Un proyecto técnicamente perfecto fracasa si no hay una compatibilidad cultural (la gente no lo adopta, no lo entiende o lo resiste por miedo al reemplazo), lo que demuestra que la dimensión humana es la que valida la existencia y utilidad de cualquier sistema de información.
 
 #### Unidad 4
 
-**Respuesta 1:** El **Modelo Canvas** es una herramienta de gestión que permite visualizar de forma integral los elementos clave para la generación de ingresos y la viabilidad financiera de un negocio. Su sencillez facilita la descripción y el ajuste de modelos de negocio para hacerlos más innovadores y competitivos, permitiendo abordar la problemática empresarial tanto desde un punto de vista interno como externo.
+7.  Una propuesta de valor ambigua impide identificar claramente las necesidades del cliente y el problema que se intenta resolver. Esto repercute en el diseño técnico, ya que se pueden construir funcionalidades innecesarias que elevan los **costos de infraestructura** y desarrollo, alejando a la empresa de su punto de equilibrio. Si el "corazón" del modelo (la propuesta) no está alineado con la arquitectura de sistemas, la operatividad del negocio se vuelve financieramente inviable.
 
-**Respuesta 2:** La **propuesta de valor** es el núcleo que define qué se va a ofrecer al mercado y por qué el cliente la aceptará, mientras que el **modelo de negocio** es la herramienta completa que define cómo se va a lograr esa entrega, a quiénes se les venderá y cómo se generarán ingresos. El modelo de negocio proporciona claridad estratégica sobre cómo la empresa crea, entrega y captura valor en el mercado.
+8.  Las startups operan bajo modelos de negocio **ágiles y escalables**, donde los recursos clave ya no son solo activos físicos, sino principalmente el talento humano especializado y la propiedad intelectual de sus algoritmos. A diferencia de las empresas tradicionales, gestionan el riesgo mediante la experimentación constante y modelos de ingresos flexibles (como suscripciones o freemium), utilizando la tecnología no solo para operar, sino para capturar y entregar valor de forma disruptiva.
 
 #### Unidad 5
+9.  Un **descongelamiento** brusco sin participación destruye el sentimiento de pertenencia y genera una brecha emocional insalvable. Al ignorar el conocimiento empírico de los veteranos, la empresa pierde un capital intelectual crítico que no está documentado; el resultado es una caída de productividad y una pérdida de confianza que puede tardar décadas en reconstruirse, demostrando que la gestión del cambio es, ante todo, gestión de miedos e identidades.
 
-**Respuesta 1:** Kurt Lewin planteó el cambio en tres niveles, utilizando la analogía de bloques de hielo:
-1.  **Descongelamiento:** Se debe preparar el terreno venciendo la resistencia inicial mediante la motivación y comunicando por qué es necesario dejar atrás la forma de trabajo actual.
-2.  **Transición:** Es la etapa del cambio propiamente dicho. Requiere un liderazgo fuerte, manejo de tiempos y brindar seguridad ante la incertidumbre.
-3.  **Recongelamiento:** Ocurre cuando el cambio ha sido aceptado y se estabiliza bajo el nuevo marco de trabajo, volviendo a la normalidad.
-
-**Respuesta 2:** La resistencia al cambio surge principalmente por el **miedo a lo desconocido**, la pérdida de estabilidad, la inseguridad laboral y el temor a que el conocimiento acumulado pierda valor. También influyen la falta de información, la pérdida de poder o autoridad, y experiencias negativas previas con cambios mal gestionados. A menudo, no se resiste la tecnología en sí, sino la posibilidad de volverse prescindible o perder identidad laboral.
+10. La **reingeniería** es un cambio radical que puede romper la homeostasis (equilibrio interno) de la organización si se aplica sin considerar las retroalimentaciones del sistema humano. Cuando la presión por la eficiencia ignora la capacidad de adaptación de las personas, el sistema entra en un estado de conflicto permanente; la resistencia deja de ser un "problema a eliminar" para convertirse en un síntoma de que el cambio está amenazando la supervivencia misma de las partes del sistema.
 
 #### Unidad 6
+11. El **intrapreneur** introduce "neguentropía" (orden y renovación) al proponer proyectos que rompen el statu quo desde adentro de la empresa. Sin embargo, la burocracia excesiva y la falta de una cultura que tolere el error suelen asfixiar estos perfiles. En sistemas, esto se ve cuando las áreas técnicas se limitan a "mantener lo existente", bloqueando el pensamiento lateral y la innovación abierta necesaria para adaptarse al entorno cambiante.
 
-**Respuesta 1:** Un **intrapreneur** o intraemprendedor es un empleado que actúa como agente de cambio, buscando oportunidades de mejora e iniciando proyectos de innovación dentro de la empresa. Para que este perfil florezca, la organización debe proporcionar condiciones estructurales y culturales que fomenten la creatividad, permitan el riesgo y no frustren las iniciativas nuevas con excesiva burocracia.
-
-**Respuesta 2:** Estas tecnologías permiten optimizar tareas, reducir costos y mejorar la toma de decisiones basada en datos en tiempo real. Sin embargo, su integración estratégica plantea desafíos que van más allá de lo técnico, incluyendo el **impacto ético y social**, la seguridad de los datos personales y la redefinición de roles humanos ante la automatización de procesos.
+12. El líder debe practicar el hábito de considerar las **consecuencias a largo plazo**. No basta con que una tecnología sea factible o viable; debe ser deseable desde una perspectiva humana y ética. La integración responsable de IA o Big Data exige marcos de gobernanza de datos y una evaluación de impacto social, reconociendo que las decisiones de diseño técnico tienen repercusiones profundas en el empleo y la privacidad de los usuarios.
 
 #### Unidad 7
+13. El **Green IT** optimiza el consumo energético de los data centers y reduce los residuos electrónicos mediante el uso eficiente de recursos y el diseño de software optimizado. Al integrar estos criterios en la estrategia, el área de IT contribuye directamente a los objetivos de sostenibilidad (ESG) de la empresa, lo que mejora la imagen corporativa ante clientes exigentes y reduce costos operativos, transformando una responsabilidad ética en una ventaja competitiva tangible.
 
-**Respuesta 1:** Los valores éticos gobiernan el modo en que un gerente ejerce su autoridad, toma decisiones y trata a las personas. Un gerente que actúa sin ética puede lograr resultados a corto plazo, pero compromete la **confianza organizacional** y la sostenibilidad de la empresa a largo plazo. La gestión gerencial del siglo XXI exige actuar con integridad frente a empleados, accionistas, clientes y la comunidad.
-
-
-**Respuesta 2:** La **RSE** es el compromiso de dirigir las actividades de la organización de manera racional y ética para obtener beneficios considerando no solo los recursos financieros, sino también el impacto en los recursos humanos, sociales y ambientales. Sus ventajas incluyen una mejor imagen corporativa, mayor retención de talento, fortalecimiento de la confianza interna y la garantía de una **supervivencia sostenible** en el tiempo dentro de un sistema social amplio.
+14. La **RSE** solo es genuina cuando es transversal a la organización y está planificada. Si una empresa tecnológica maximiza beneficios a costa del bienestar de sus empleados o del medio ambiente, cualquier acción social es "Greenwashing". Para ser estratégica, debe estar en el "corazón" del líder y del modelo de negocio, entendiendo que el éxito organizacional en el siglo XXI no se mide solo en dinero, sino en el impacto positivo generado en todos los grupos de interés.
 
 ## Reflexión final
 
