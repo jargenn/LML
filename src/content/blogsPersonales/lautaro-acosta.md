@@ -111,5 +111,4 @@ También resultó valioso reflexionar sobre el rol que tendrán las tecnologías
 ### Mapa conceptual de la materia
 
 ![Mapa conceptual de la materia](../../assets/MapaConceptualLautaro.png)
-A continuación, se presentan dos preguntas por cada unidad del programa, con sus respectivas respuestas basadas en las fuentes proporcionadas.
 
