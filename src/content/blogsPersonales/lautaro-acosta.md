@@ -108,6 +108,10 @@ Además, la materia aportó una perspectiva más humana sobre los procesos de tr
 
 También resultó valioso reflexionar sobre el rol que tendrán las tecnologías emergentes en el futuro profesional. Entender que la automatización no reemplaza la necesidad de pensamiento crítico, diseño y capacidad de adaptación refuerza la importancia del aprendizaje continuo y de construir una mirada estratégica más allá del conocimiento técnico.
 
+### Infografía
+
+![Infogragía](../../assets/RPALAU.png)
+
 ### Mapa conceptual de la materia
 
 ![Mapa conceptual de la materia](../../assets/MapaConceptualLautaro.png)
