@@ -1,7 +1,7 @@
 ---
 title: "Desafío 8 - Análisis Devlights"
 description: "Actividad en base a la visita de Nicolas Dogi"
-pubDate: 2026-07-15
+pubDate: 2026-06-15
 heroImage: "../../assets/devlights.png"
 ---
 
